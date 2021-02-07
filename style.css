@@ -22,7 +22,7 @@ main {
   justify-content: center;
   align-items: center;
   min-width: 100%;
-  min-height: 100vh;
+  min-height: 95vh;
 }
 
 p {
@@ -80,6 +80,7 @@ p {
 
 .profile-info span {
   color: hsl(227, 10%, 46%);
+  padding-left: 0.5rem;
 }
 
 .profile-info h3,
@@ -104,7 +105,7 @@ p {
   font-size: 1rem;
 }
 
-.patter .attribution {
+.attribution {
   font-size: 11px;
   text-align: center;
 }
