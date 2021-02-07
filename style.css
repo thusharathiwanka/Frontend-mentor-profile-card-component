@@ -1,5 +1,7 @@
 html {
   font-size: 100%;
+  font-family: "Kumbh sans", sans-serif;
+  color: hsl(229, 23%, 23%);
 }
 
 *,
@@ -10,7 +12,99 @@ html {
   box-sizing: border-box;
 }
 
-.attribution {
+body {
+  background: hsl(185, 75%, 39%);
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+p {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+
+.pattern {
+  position: absolute;
+  z-index: -1;
+  max-width: 100%;
+  height: auto;
+}
+
+.pattern-top {
+  top: -50%;
+  left: -10%;
+  transform: scale(1.2);
+}
+
+.pattern-bottom {
+  bottom: -70%;
+  right: -10%;
+  transform: scale(1.2);
+}
+
+.card-pattern-container img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+}
+
+.profile-vector {
+  position: absolute;
+  border-radius: 50%;
+  border: 5px white solid;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -95%);
+}
+
+.container {
+  max-width: 380px;
+  background: white;
+  border-radius: 15px;
+  position: relative;
+  margin: 2rem;
+}
+
+.profile-info {
+  margin-top: 5rem;
+  text-align: center;
+  border-bottom: 1px solid hsl(0, 0%, 89%);
+}
+
+.profile-info span {
+  color: hsl(227, 10%, 46%);
+}
+
+.profile-info h3,
+.profile-info p {
+  padding-bottom: 1rem;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  text-align: center;
+}
+
+.stats p {
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+  letter-spacing: 2px;
+}
+
+.stats h3 {
+  font-size: 1rem;
+}
+
+.patter .attribution {
   font-size: 11px;
   text-align: center;
 }
